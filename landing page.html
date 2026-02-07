@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Anime Planet Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reco.css" />
+    <style>
+      #fullmain {
+        width: 76%;
+        margin: 50px auto;
+        text-align: center;
+      }
+      #fadback {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #fadback > img {
+        width: 25px;
+        border-radius: 50%;
+        height: 25px;
+        margin-right: 8px;
+        margin-top: 8px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="navbar">
+      <a href="#" class="logo">anime<span>_</span>planet</a>
+      <nav class="nav-links">
+        <a href="#">Anime</a>
+        <a href="#">Manga</a>
+        <a href="#">Characters</a>
+        <a href="#">Community</a>
+      </nav>
+      <div class="auth">
+        <button class="btn-outline">Sign up</button>
+        <button class="login">Log in</button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h1>Welcome to Anime-Planet</h1>
+        <p>
+          Discover anime and manga, track your progress, get personalized
+          recommendations.
+        </p>
+      </div>
+    </section>
+    <main id="fullmain">
+      <section id="light-yagami-death-note">
+        <h2 class="section-title">Popular anime this week</h2>
+        <div class="grid">
+          <div class="levi-ackerman-attack-on-titan">
+            <img
+              src="https://cdn.anime-planet.com/anime/primary/jujutsu-kaisen-the-culling-game-1-285x399.webp?t=1768141147"
+              alt="Jujutsu Kaisen"
+            />
+            <div class="levi-ackerman-attack-on-titan-hover">+ Add to list</div>
+            <p class="light-yagami-name">Jujutsu Kaisen: The Culling Game</p>
+          </div>
+
+          <div class="goku-dragon-ball-z">
+            <img
+              src="https://cdn.anime-planet.com/anime/primary/hells-paradise-jigokuraku-season-2-1-285x403.webp?t=1764455999"
+              alt="Hell's Paradise"
+            />
+            <div class="goku-dragon-ball-z-hover">+ Add to list</div>
+            <p class="naruto-uzumaki-name">
+              Hell's Paradise: Jigokuraku Season 2
+            </p>
+          </div>
+
+          <div class="naruto-uzumaki-naruto">
+            <img
+              src="https://cdn.anime-planet.com/anime/primary/jack-of-all-trades-party-of-none-1-285x399.webp?t=1765062987"
+              alt="Jack-of-All-Trades"
+            />
+            <div class="naruto-uzumaki-naruto-hover">+ Add to list</div>
+            <p class="light-yagami-name">Jack-of-All-Trades, Party of None</p>
+          </div>
+
+          <div class="itachi-uchiha-naruto">
+            <img
+              src="https://cdn.anime-planet.com/anime/primary/oshi-no-ko-3rd-season-1-285x399.webp?t=1757863830"
+              alt="Oshi no Ko"
+            />
+            <div class="itachi-uchiha-naruto-hover">+ Add to list</div>
+            <p class="levi-ackerman-name">Oshi no Ko 3rd Season</p>
+          </div>
+
+          <div class="eren-yeager-attack-on-titan">
+            <img
+              src="https://cdn.anime-planet.com/anime/primary/gachiakuta-1-285x399.webp?t=1750629351"
+              alt="Gachiakuta"
+            />
+            <div class="eren-yeager-attack-on-titan-hover">+ Add to list</div>
+            <p class="eren-yeager-name">GACHIACUTA</p>
+          </div>
+        </div>
+        <button class="see-all">See All Popular Anime</button>
+        <div class="space"></div>
+      </section>
+      <!-- done -->
+
+      <section class="guyy">
+        <h2>Popular manga this week</h2>
+
+        <div class="manga-row">
+          <div class="baruto">
+            <img
+              src="https://cdn.anime-planet.com/manga/primary/semantic-error-1-285x397.webp?t=1659228570"
+            />
+            <p class="add">+ Add to list</p>
+            <h4>Our Sunny Days</h4>
+          </div>
+
+          <div class="baruto">
+            <img
+              src="https://cdn.anime-planet.com/manga/primary/our-sunny-days-1-285x399.webp?t=1760310780"
+            />
+            <p class="add">+ Add to list</p>
+            <h4>The Greatest Estate Developer</h4>
+          </div>
+
+          <div class="baruto">
+            <img
+              src="https://cdn.anime-planet.com/manga/primary/the-greatest-estate-developer-1-285x398.jpg?t=1637541707"
+            />
+            <p class="add">+ Add to list</p>
+            <h4>The Stellar Swordmaster</h4>
+          </div>
+
+          <div class="baruto">
+            <img
+              src="https://cdn.anime-planet.com/manga/primary/villains-are-destined-to-die-1-285x409.webp?t=1678770088"
+            />
+            <p class="add">+ Add to list</p>
+            <h4>Who Made Me a Princess</h4>
+          </div>
+
+          <div class="baruto">
+            <img
+              src="https://cdn.anime-planet.com/manga/primary/revenge-of-the-baskerville-bloodhound-1-285x399.webp?t=1762479449"
+            />
+            <p class="add">+ Add to list</p>
+            <h4>Jinx</h4>
+          </div>
+
+          <div class="baruto">
+            <img
+              src="https://cdn.anime-planet.com/manga/primary/the-hunters-gonna-lay-low-1-285x399.webp?t=1728748271"
+            />
+            <p class="add">+ Add to list</p>
+            <h4>Omniscient Reader's Viewpoint</h4>
+          </div>
+
+          <div class="baruto">
+            <img
+              src="https://cdn.anime-planet.com/manga/primary/paws-and-claws-1-285x399.webp?t=1738428764"
+            />
+            <p class="add">+ Add to list</p>
+            <h4>Paws & Claws</h4>
+          </div>
+        </div>
+
+        <button class="seeall">SEE ALL POPULAR THIS WEEK</button>
+      </section>
+      <!-- 3 box -->
+      <section class="reco">
+        <h2>Newest anime recommendations</h2>
+
+        <div class="reco-row">
+          <!-- Card 1 -->
+          <div class="reco-card">
+            <div class="pair">
+              <div>
+                <p class="label">IF YOU LIKED...</p>
+                <img
+                  src="https://cdn.anime-planet.com/anime/primary/my-gift-lvl-9999-unlimited-gacha-backstabbed-in-a-backwater-dungeon-im-out-for-revenge-1-285x399.webp?t=1759618826"
+                />
+                <h4>
+                  My Gift Lvl 9999 Unlimited Gacha: Backstabbed in a Backwater
+                  Dungeon, I'm Out for Revenge!
+                </h4>
+              </div>
+              <div>
+                <p class="label">YOU MIGHT LIKE</p>
+                <img
+                  src="https://cdn.anime-planet.com/anime/primary/overlord-1-190x285.jpg?t=1625896973"
+                />
+                <h4>Overlord</h4>
+              </div>
+            </div>
+            <button class="reason">read reason</button>
+            <div id="fadback">
+              <img
+                src="https://cdn.anime-planet.com/manga/primary/honbul-flame-of-the-soul-1-285x399.webp?t=1742083925"
+                alt=""
+              />
+              <p class="by">added by Ksp24</p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="reco-card">
+            <div class="pair">
+              <div>
+                <p class="label">IF YOU LIKED...</p>
+                <img
+                  src="https://cdn.anime-planet.com/anime/primary/my-gift-lvl-9999-unlimited-gacha-backstabbed-in-a-backwater-dungeon-im-out-for-revenge-1-285x399.webp?t=1759618826"
+                />
+                <h4>
+                  My Gift Lvl 9999 Unlimited Gacha: Backstabbed in a Backwater
+                  Dungeon, I'm Out for Revenge!
+                </h4>
+              </div>
+              <div>
+                <p class="label">YOU MIGHT LIKE</p>
+                <img
+                  src="https://cdn.anime-planet.com/anime/primary/arifureta-from-commonplace-to-worlds-strongest-1-285x399.webp?t=1730225858"
+                />
+                <h4>Arifureta: From Commonplace to World's Strongest</h4>
+              </div>
+            </div>
+            <button class="reason">read reason</button>
+            <div id="fadback">
+              <img
+                src="https://cdn.anime-planet.com/manga/primary/honbul-flame-of-the-soul-1-285x399.webp?t=1742083925"
+                alt=""
+              />
+              <p class="by">added by Ksp24</p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="reco-card">
+            <div class="pair">
+              <div>
+                <p class="label">IF YOU LIKED...</p>
+                <img
+                  src="https://cdn.anime-planet.com/anime/primary/my-gift-lvl-9999-unlimited-gacha-backstabbed-in-a-backwater-dungeon-im-out-for-revenge-1-285x399.webp?t=1759618826"
+                />
+                <h4>
+                  My Gift Lvl 9999 Unlimited Gacha: Backstabbed in a Backwater
+                  Dungeon, I'm Out for Revenge!
+                </h4>
+              </div>
+              <div>
+                <p class="label">YOU MIGHT LIKE</p>
+                <img
+                  src="https://cdn.anime-planet.com/anime/primary/the-eminence-in-shadow-1-285x399.webp?t=1648297941"
+                />
+                <h4>The Eminence in Shadow</h4>
+              </div>
+            </div>
+            <button class="reason">read reason</button>
+            <div id="fadback">
+              <img
+                src="https://cdn.anime-planet.com/manga/primary/honbul-flame-of-the-soul-1-285x399.webp?t=1742083925"
+                alt=""
+              />
+              <p class="by">added by Ksp24</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="more">SEE MORE RECOMMENDATIONS</button>
+      </section>
+      <!-- 4 box -->
+      <section class="season-section">
+        <h2 class="season-title">Winter 2026 anime</h2>
+
+        <div class="season-row">
+          <!-- card -->
+          <div class="season-card">
+            <img
+              src="https://cdn.anime-planet.com/anime/primary/tamons-b-side-1-285x399.webp?t=1765063412"
+              alt=""
+            />
+            <span class="add">+ Add to list</span>
+            <p>Tamon’s B-Side</p>
+          </div>
+
+          <div class="season-card">
+            <img
+              src="https://cdn.anime-planet.com/anime/primary/sentenced-to-be-a-hero-1-285x412.webp?t=1748802545"
+              alt=""
+            />
+            <span class="add">+ Add to list</span>
+            <p>Sentenced to Be a Hero</p>
+          </div>
+
+          <div class="season-card">
+            <img
+              src="https://cdn.anime-planet.com/anime/primary/the-demon-kings-daughter-is-too-kind-1-285x399.webp?t=1768141384"
+              alt=""
+            />
+            <span class="add">+ Add to list</span>
+            <p>The Demon King’s Daughter is Too Kind!</p>
+          </div>
+
+          <div class="season-card">
+            <img
+              src="https://cdn.anime-planet.com/anime/primary/jujutsu-kaisen-the-culling-game-1-285x399.webp?t=1768141147"
+              alt=""
+            />
+            <span class="add">+ Add to list</span>
+            <p>Jujutsu Kaisen: The Culling Game</p>
+          </div>
+
+          <div class="season-card">
+            <img
+              src="https://cdn.anime-planet.com/anime/primary/kaya-chan-isnt-scary-1-285x399.webp?t=1767558430"
+              alt=""
+            />
+            <span class="add">+ Add to list</span>
+            <p>Kagya-chan Isn’t Scary</p>
+          </div>
+
+          <div class="season-card">
+            <img
+              src="https://cdn.anime-planet.com/anime/primary/a-gentle-nobles-vacation-recommendation-1-285x399.webp?t=1767826222"
+              alt=""
+            />
+            <span class="add">+ Add to list</span>
+            <p>A Gentle Noble’s Vacation Recommendation</p>
+          </div>
+
+          <div class="season-card">
+            <img
+              src="https://cdn.anime-planet.com/anime/primary/the-case-book-of-arne-1-285x399.webp?t=1767984611"
+              alt=""
+            />
+            <span class="add">+ Add to list</span>
+            <p>The Case Book of Arne</p>
+          </div>
+        </div>
+
+        <button class="season-btn">SEE ALL CURRENT ANIME</button>
+      </section>
+
+      <!-- 5 box -->
+      <section class="manga-reco">
+        <h2>Newest manga recommendations</h2>
+
+        <div class="reco-grid">
+          <div class="reco-item">
+            <div class="pair">
+              <div class="manga">
+                <span class="label">IF YOU LIKED...</span>
+                <img
+                  src="https://cdn.anime-planet.com/manga/primary/welcome-to-the-dungeon-hotel-1-285x399.webp?t=1742953265"
+                />
+                <p>Welcome to the Dungeon Hotel</p>
+              </div>
+
+              <div class="manga">
+                <span class="label">YOU MIGHT LIKE</span>
+                <img
+                  src="https://cdn.anime-planet.com/manga/primary/the-housekeeper-of-the-dungeon-1-285x399.webp?t=1716163204"
+                />
+                <p>The Housekeeper of the Dungeon</p>
+              </div>
+            </div>
+
+            <button class="reason">read reason</button>
+            <div id="fadback">
+              <img
+                src="https://cdn.anime-planet.com/manga/primary/honbul-flame-of-the-soul-1-285x399.webp?t=1742083925"
+                alt=""
+              />
+              <div class="added">added by <strong>Jojvote</strong></div>
+            </div>
+          </div>
+
+          <div class="reco-item">
+            <div class="pair">
+              <div class="manga">
+                <span class="label">IF YOU LIKED...</span>
+                <img
+                  src="https://cdn.anime-planet.com/manga/primary/welcome-to-the-dungeon-hotel-1-285x399.webp?t=1742953265"
+                />
+                <p>Welcome to the Dungeon Hotel</p>
+              </div>
+
+              <div class="manga">
+                <span class="label">YOU MIGHT LIKE</span>
+                <img
+                  src="https://cdn.anime-planet.com/manga/primary/the-housekeeper-of-the-dungeon-1-285x399.webp?t=1716163204"
+                />
+                <p>The Housekeeper of the Dungeon</p>
+              </div>
+            </div>
+
+            <button class="reason">read reason</button>
+            <div id="fadback">
+              <img
+                src="https://cdn.anime-planet.com/manga/primary/honbul-flame-of-the-soul-1-285x399.webp?t=1742083925"
+                alt=""
+              />
+              <div class="added">added by <strong>Noir00Alchemist</strong></div>
+            </div>
+          </div>
+
+          <div class="reco-item">
+            <div class="pair">
+              <div class="manga">
+                <span class="label">IF YOU LIKED...</span>
+                <img
+                  src="https://cdn.anime-planet.com/manga/primary/lucky-credit-1-285x399.webp?t=1706150432"
+                />
+                <p>Lucky Credit</p>
+              </div>
+
+              <div class="manga">
+                <span class="label">YOU MIGHT LIKE</span>
+                <img
+                  src="https://cdn.anime-planet.com/manga/primary/honbul-flame-of-the-soul-1-285x399.webp?t=1742083925"
+                />
+                <p>HONBUL: Flame of the Soul</p>
+              </div>
+            </div>
+
+            <button class="reason">read reason</button>
+            <div id="fadback">
+              <img
+                src="https://cdn.anime-planet.com/manga/primary/honbul-flame-of-the-soul-1-285x399.webp?t=1742083925"
+                alt=""
+              />
+              <div class="added">added by <strong>ykh2mi</strong></div>
+            </div>
+          </div>
+        </div>
+
+        <button class="see-more">SEE MORE RECOMMENDATIONS</button>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-container">
+        <!-- Left -->
+        <div class="footer-left">
+          <p class="footer-title">
+            <strong>Anime-Planet</strong> is run by fans, for fans
+          </p>
+
+          <a href="#" class="patreon-btn">❤️ Support us on Patreon</a>
+
+          <p class="support-link">
+            <a href="#">Learn about more ways to support Anime-Planet</a>
+          </p>
+
+          <p class="copyright">© Anime-Planet, 2001–2026</p>
+        </div>
+
+        <!-- Center -->
+        <div class="footer-center">
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook">F</a>
+            <a href="#" aria-label="Twitter">T</a>
+            <a href="#" aria-label="Instagram">I</a>
+            <a href="#" aria-label="Discord">D</a>
+            <a href="#" aria-label="Forum">💬</a>
+          </div>
+
+          <button class="theme-toggle">⚙️ Light Mode</button>
+        </div>
+
+        <!-- Right -->
+        <div class="footer-right">
+          <a href="#">Contact</a>
+          <a href="#">About</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
